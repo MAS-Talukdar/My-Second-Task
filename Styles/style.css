@@ -1,5 +1,6 @@
-*{
-    /* width: 1440px; */
+body{
+    margin: 0;
+    padding: 0;
 }
 /* header area */
 nav{
@@ -20,7 +21,7 @@ nav{
     gap: 20px;
     margin-top: 40px;
 }
-ul li{
+.go li{
     list-style: none;
 }
 .last{
@@ -40,6 +41,7 @@ ul li{
 }
 .price{
     margin-top: 5px;
+    color: #000000;
 }
 /* main area */
 .main{
@@ -48,7 +50,6 @@ ul li{
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 70px;
-    /* margin-bottom: 80px; */
     display: flex;
 }
 .hd{
@@ -100,11 +101,98 @@ ul li{
     background-color: #E95A08;
     border: none;
 }
+/* three photo part */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 80px;
+}
+.oilo{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.valo-na{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sagor{
+    margin-bottom: 50px;
+    font-size: 22px;
+    color: #00000077;
+}
+.ki{
+    border: none;
+    border-radius: 15px;
+}
+.aa{
+    margin-right: 8px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.aa img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.image-text-one{
+    position: absolute;
+    top: 42%;
+    left: 23%;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bb{
+    margin-right: 8px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 22px;
+    margin-right: 8px;
+}
+.bb img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.image-text-two{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.second-side{
+    margin-right: 8px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+}
+.second-side img{
+    display: block;
+}
+.ttt{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+.uu{
+    text-decoration: underline;
+}
 /* Plants Lover Section */
 .plant-lover{
     display: flex;
     width: 1140px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .photo-sect{
     position: relative;
@@ -141,13 +229,7 @@ ul li{
     font-size: 22px;
     margin-top: 10px;
 }
-/* .join-area{
-    background-image: url('assets\news-letter-bg.png');
-    background-size: cover;
-} */
-/* .pht{
-    background-image: url('assets\news-letter-bg.png');
-} */
+
  /* footer area */
  .asol{
     width: 1140px;
