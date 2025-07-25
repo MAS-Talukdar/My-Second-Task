@@ -47,6 +47,7 @@ ul li{
     height: 461px;
     margin: 0 auto;
     margin-top: 60px;
+    margin-bottom: 70px;
     /* margin-bottom: 80px; */
     display: flex;
 }
@@ -54,18 +55,121 @@ ul li{
     font-weight: bold;
     font-size: 65px;
 }
+.noto{
+    font-weight: bold;
+    font-size: 50px;
+}
+.choto{
+    font-size: 22px;
+    color: #00000077;
+}
 .cl{
     color: #E95A08;
 }
+/* Plants Section */
 .plant-section{
     width: 1140px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 .texts{
-    align-items: center;
+    text-align: center;
 }
 .items{
-    display: grid;
-    grid-template-columns: repeat();
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
+.item{
+    text-align: center;
+}
+.lily{
+    color: #111111;
+    font-weight: normal;
+    font-size: 22px;
+}
+.prc{
+    color: #111111;
+    font-size: 22px;
+    font-weight: bold;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+}
+/* Plants Lover Section */
+.plant-lover{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+}
+.photo-sect{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.backg{
+    width: 540px;
+    height: 597px;
+    display: block;
+}
+.badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -120px;
+    left: 355px;
+    z-index: 2;
+    pointer-events: none;
+}
+.lover{
+    margin-left: 80px;
+}
+.Fuler-jonno{
+    height: 137px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+ul li{
+    list-style: disc;
+    color: #0000006e;
+    font-size: 22px;
+    margin-top: 10px;
+}
+/* .join-area{
+    background-image: url('assets\news-letter-bg.png');
+    background-size: cover;
+} */
+/* .pht{
+    background-image: url('assets\news-letter-bg.png');
+} */
+ /* footer area */
+ .asol{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+ }
+ .lg{
+    width: 135px;
+    height: 82px;
+ }
+ .kotha-barta{
+    width: 200px;
+    font-size: 22px;
+    color: #00000070;
+ }
+ .lolo li{
+    list-style: none;
+ }
+ .pt{
+    margin: 8px;
+    width: 36px;
+    height: 36px;
+ }
