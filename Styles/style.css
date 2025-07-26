@@ -255,3 +255,49 @@ ul li{
     width: 36px;
     height: 36px;
  }
+ /* responsive */
+ @media (max-width: 400px) {
+    .nav-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hd {
+        font-size: 36px;
+    }
+
+    .valo-na, .noto, .Fuler-jonno {
+        font-size: 32px;
+    }
+
+    .items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .plant-lover {
+        flex-direction: column;
+    }
+
+    .image-text-one, .image-text-two, .ttt {
+        left: 10%;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .ttt {
+        font-size: 24px;
+    }
+
+    .asol {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .osthir {
+        flex-direction: column;
+    }
+
+    .mail, .btnn {
+        width: 100%;
+    }
+}
